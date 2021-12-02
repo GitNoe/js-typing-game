@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="todo">
+    <div class="container">
+        <div class="game">
+            <h1>Juego de escritura</h1>
+            <p>Practica tus habilidades de escritura en el teclado con frases de películas, ¿reconoces alguna?</p>
+            <p>Haz click en "Quiero probar" para empezar.</p>
+            <p id="quote"></p> <!-- This will display our quote -->
+            <p id="message"></p> <!-- This will display any status messages -->
+            <div class="text">
+                <input type="text" aria-label="current word" id="typed-value" /> <!-- The textbox for typing -->
+                <button type="button" id="start">Quiero probar</button> <!-- To start the game -->
+            </div>
+        </div>
+
+        <div id="move"></div>
+    </div>
+
+    <div class="movies" id="movies">
+        <img src="./img/pel1.jpg" alt="peli" id="peli1">
+        <img src="./img/pel2.jpg" alt="peli" id="peli2">
+        <img src="./img/pel3.jpg" alt="peli" id="peli3">
+        <img src="./img/pel4.jpg" alt="peli" id="peli4">
+        <img src="./img/pel5.jpg" alt="peli" id="peli5">
+        <img src="./img/pel6.jpg" alt="peli" id="peli6">
+        <img src="./img/pel7.jpg" alt="peli" id="peli7">
+        <img src="./img/pel8.jpg" alt="peli" id="peli8">
+    </div>
+</div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/move.js"></script>
+</body>
+</html>
